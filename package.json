@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "build:env": "env | grep -E \"^(STORE_DATA)\" > .env",
     "dev:android": "react-native run-android",
     "dev:ios": "react-native run-ios",
     "link-lib": "react-native link",
@@ -13,8 +14,12 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "i18n-js": "^3.3.0",
+    "ramda": "^0.26.1",
     "react": "16.9.0",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "react-native-config": "^0.11.7",
+    "react-native-localize": "^1.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -23,7 +28,9 @@
     "@strv/eslint-config-react-native": "^2.0.0",
     "@strv/eslint-config-typescript": "^2.0.0",
     "@strv/stylelint-config-styled-components": "^1.1.0",
+    "@types/i18n-js": "^3.0.1",
     "@types/jest": "^24.0.17",
+    "@types/ramda": "^0.26.19",
     "@types/react": "^16.9.2",
     "@types/react-native": "^0.60.6",
     "@types/react-test-renderer": "^16.9.0",
