@@ -1,9 +1,18 @@
 {
   "name": "template_react_native",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Template for React Native App",
+  "author": "Peter Varholak <peter.varholak@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "react",
+    "react-native",
+    "typescript",
+    "jest"
+  ],
   "scripts": {
-    "build:env": "env | grep -E \"^(STORE_DATA)\" > .env",
+    "build:env": "env | grep -E \"^(FOO)\" > .env",
     "dev:android": "react-native run-android",
     "dev:ios": "react-native run-ios",
     "link-lib": "react-native link",
@@ -50,7 +59,12 @@
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
-  "jest": {
-    "preset": "react-native"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varholak-peter/template-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/varholak-peter/template-react-native/issues"
+  },
+  "homepage": "https://github.com/varholak-peter/template-react-native"
 }
