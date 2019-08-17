@@ -1,4 +1,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export const App = () => <Text>Hello</Text>
+import { envVars } from '~/config'
+import { t } from '~/i18n'
+
+export const App = () => <Text>{t('hello', { foo: envVars.FOO })}</Text>
