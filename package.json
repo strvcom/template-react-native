@@ -3,27 +3,44 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "dev:android": "react-native run-android",
+    "dev:ios": "react-native run-ios",
+    "link-lib": "react-native link",
+    "lint": "eslint",
+    "lint:fix": "yarn lint --fix",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "type-check": "tsc"
   },
   "dependencies": {
-    "react": "16.8.6",
+    "react": "16.9.0",
     "react-native": "0.60.5"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/runtime": "^7.5.5",
     "@react-native-community/eslint-config": "^0.0.5",
+    "@strv/eslint-config-react-native": "^2.0.0",
+    "@strv/eslint-config-typescript": "^2.0.0",
+    "@strv/stylelint-config-styled-components": "^1.1.0",
     "@types/jest": "^24.0.17",
     "@types/react": "^16.9.2",
     "@types/react-native": "^0.60.6",
     "@types/react-test-renderer": "^16.9.0",
     "babel-jest": "^24.9.0",
+    "babel-plugin-module-resolver": "^3.2.0",
     "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.4",
     "jest": "^24.9.0",
+    "lint-staged": "^9.2.3",
     "metro-react-native-babel-preset": "^0.56.0",
-    "react-test-renderer": "16.8.6",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "16.9.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
   "jest": {
