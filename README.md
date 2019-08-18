@@ -30,10 +30,12 @@ This template uses [Yarn](https://yarnpkg.com) as a package manager so make sure
 The first thing you should run is:
 
 ```sh
-yarn && cd ios && pod install && cd ..
+./init.sh <PROJECT_NAME> <BUNDLE_IDENTIFIER>
 ```
 
-This will install all the necessary dependencies in order to run your project.
+For example: `./init.sh "My project" "com.mycompany.myproject"`
+
+This will install all the necessary dependencies in order to run your project and rename required files for Android and iOS. The script will self-destruct afterwards, so in case you want to make any changes to the script, make them before, rather than after. ;)
 
 All scripts need to be run with necessary `ENV` variables. To add an ENV variable, add it in `build:env` script in `package.json` as well as `config/env.ts`. This will then make it accessible through `import { envVars } from '~/config'`.
 
