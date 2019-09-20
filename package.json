@@ -28,7 +28,7 @@
     "react": "16.9.0",
     "react-native": "0.60.5",
     "react-native-config": "luggit/react-native-config#1eb6ac0",
-    "react-native-localize": "^1.2.0"
+    "react-native-localize": "^1.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",

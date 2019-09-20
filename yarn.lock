@@ -6711,10 +6711,10 @@ react-native-config@luggit/react-native-config#1eb6ac0:
   version "0.11.7"
   resolved "https://codeload.github.com/luggit/react-native-config/tar.gz/1eb6ac01991210ddad2989857359a0f6ee35d734"
 
-react-native-localize@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-localize/-/react-native-localize-1.2.0.tgz#40bd5390a1b2ca7e200086901d937a47e4bb602b"
-  integrity sha512-V/OhS3LFpx7lqqIIFTwEStlsQF4jod5DCpE1GVvpnIHnPwZ+R1w2q4NzEfkWX6t5h9cy7/XG9OWMRD6rCuv0ww==
+react-native-localize@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-localize/-/react-native-localize-1.2.1.tgz#7c68a9275117942763439bf570828f05fb5bbdc7"
+  integrity sha512-givdHOFqu41EMgI6HikNnKhsze4jlJ+BVoznAAHuKFCLWwDr7z6S1tcq7c/C7zHrKlESpE5H1ZqAPU3R5Hhdog==
 
 react-native@0.60.5:
   version "0.60.5"
