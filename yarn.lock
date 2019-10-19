@@ -973,19 +973,19 @@
   dependencies:
     eslint-plugin-import "^2.18.0"
 
-"@strv/eslint-config-react-native@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@strv/eslint-config-react-native/-/eslint-config-react-native-2.1.1.tgz#22b79963c61818fdb0b2322ea08d2e52339efb4b"
-  integrity sha512-+CoHhHTjs9wFvZ/0C42pf1wPWCJGa9XmdT262qsHP84wbtNwKOdbMxIRzf3r5WKx20wznJwshwSPXtnynF8SoQ==
+"@strv/eslint-config-react-native@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@strv/eslint-config-react-native/-/eslint-config-react-native-2.1.2.tgz#032be0b1c3ce180806f86ae3d374b13cbf8f9d74"
+  integrity sha512-N/t0xDuFXiyeE9eEP+dDyrh+O2BretWQFcfrGb7u+xBfpsJ6SsK1b5/QEkNITzuQc8M/e8GE65ep38K0J5H1Pg==
   dependencies:
-    "@strv/eslint-config-react" "^3.0.2"
+    "@strv/eslint-config-react" "^3.0.3"
     eslint-plugin-react-native "^3.7.0"
     eslint-plugin-react-native-a11y "^1.2.0"
 
-"@strv/eslint-config-react@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@strv/eslint-config-react/-/eslint-config-react-3.0.2.tgz#666a9d8a2eb3d7c0ad1c29c5f62d64c1dbc493bd"
-  integrity sha512-v6zJX2KvyXuONEgYRWRlaRcCOPvEdUfKk4X3lI/7HMQZXpdYRuoBpOQ05bQCjR+TdMRZjyyJB6IJu0fPtx91tw==
+"@strv/eslint-config-react@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@strv/eslint-config-react/-/eslint-config-react-3.0.3.tgz#8e5c69835bc3c796ecb66354121dfb9684845314"
+  integrity sha512-n9qkIopj0iuzHUXzNk3M/ne3TarqtwaxEwV4swG91CdHIntE66/BiNaNsK790o0e3kTtftbyJBOeOwjSuY/jQg==
   dependencies:
     "@strv/eslint-config-base" "^2.1.1"
     eslint-plugin-jsx-a11y "^6.1.2"
