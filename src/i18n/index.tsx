@@ -26,7 +26,7 @@ i18n.locale = languageTag
 i18n.fallbacks = true
 i18n.translations = { [languageTag]: translations[languageTag] }
 
-export const t = R.memoizeWith(
-  (key, config) => (config ? key + JSON.stringify(config) : key),
+export const t = R.memoizeWith<typeof i18n.t>(
+  (key, config) => (config ? String(key) + JSON.stringify(config) : String(key)),
   (key, config) => i18n.t(key, config)
 )
