@@ -1129,12 +1129,12 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.1.tgz#f1a11e7babb0c3cad68100be381d1e064c68f1f6"
   integrity sha512-CFzn9idOEpHrgdw8JsoTkaDDyRWk1jrzIV8djzcgpq0y9tG4B4lFT+Nxh52DVpDXV+n4+NPNv7M1Dj5uMp6XFg==
 
-"@types/ramda@^0.26.21":
-  version "0.26.21"
-  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.26.21.tgz#cfd552c679453d153a9e2fd89ffc5dd5aa93d2c9"
-  integrity sha512-zMYtIZMceA6BvH+or6LmewLBgojbXg5+FGCwjO8K+Z+d/ZWxILmhhASXkehW0PqJL+V0QbyDeeAHix0dvEKXfQ==
+"@types/ramda@^0.26.33":
+  version "0.26.33"
+  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.26.33.tgz#5fd1f22381ccf913a3627beb16f468fb57f82d94"
+  integrity sha512-sUCQmKfAWmlbb6PpFqvndbGgTf0bCcmHLJqMYw8ErVS0UoZTTiz952aFedJhV+JERiVH7poh33358c7p0AAN8A==
   dependencies:
-    ts-toolbelt "^3.8.4"
+    ts-toolbelt "^4.7.7"
 
 "@types/react-native@^0.60.21":
   version "0.60.21"
@@ -8033,10 +8033,10 @@ ts-jest@^24.1.0:
     semver "^5.5"
     yargs-parser "10.x"
 
-ts-toolbelt@^3.8.4:
-  version "3.8.63"
-  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-3.8.63.tgz#ee5a94a5d870f437bc6811f7428ea24c78821f6a"
-  integrity sha512-OlsFC8uF1mpN2O7DlvSkgnXzOvubO790eFhTvZBFI+WLge2BYzkQk73Q3yF0R8usxhkqbemLomqRhCGWasoIKw==
+ts-toolbelt@^4.7.7:
+  version "4.8.14"
+  resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-4.8.14.tgz#f12c10c831e6baa5b29e82e37c2a8d9581080aa6"
+  integrity sha512-I6tJkltGi47SWOU4EISWAmaoqcX1gsGhOsNs38NG6YZ6pwENiNv2VmYGSwHffJytCUUoz/fxjPwFP8rmkul0pQ==
 
 tsconfig-paths@^3.6.0:
   version "3.8.0"
