@@ -61,10 +61,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/varholak-peter/template-react-native.git"
+    "url": "https://github.com/strvcom/template-react-native.git"
   },
   "bugs": {
-    "url": "https://github.com/varholak-peter/template-react-native/issues"
+    "url": "https://github.com/strvcom/template-react-native/issues"
   },
-  "homepage": "https://github.com/varholak-peter/template-react-native"
+  "homepage": "https://github.com/strvcom/template-react-native"
 }
