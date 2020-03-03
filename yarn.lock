@@ -1150,10 +1150,10 @@
     eslint-plugin-react "^7.18.3"
     eslint-plugin-react-hooks "^2.3.0"
 
-"@strv/eslint-config-typescript@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@strv/eslint-config-typescript/-/eslint-config-typescript-2.2.0.tgz#2bbc0061aa73b471fe76e48f39b40b7b91857777"
-  integrity sha512-6g4Cg7ai1Gz6YWk/EHNmZreGy+Yj0oEyVFgVbQny7roxPgv1VeYhDjXpo4PLuhE+Ww0N7JAxnIBO4Kcdqemxog==
+"@strv/eslint-config-typescript@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@strv/eslint-config-typescript/-/eslint-config-typescript-2.2.1.tgz#3304d7d0bfd72bdec5b4673fff3d8ed531bba515"
+  integrity sha512-O9FfCENGgvW/qTVnNBDOfsyDXoq6AeBdnI/WPtxMjtzM047P851lqtl+3YYdSndPpEfbH9sWp5M5OSah7dNw0A==
   dependencies:
     "@strv/eslint-config-base" "^2.3.0"
     "@typescript-eslint/eslint-plugin" "^2.19.0"
