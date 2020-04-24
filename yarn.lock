@@ -1233,21 +1233,22 @@
   dependencies:
     eslint-plugin-import "^2.20.0"
 
-"@strv/eslint-config-react-native@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@strv/eslint-config-react-native/-/eslint-config-react-native-2.2.2.tgz#33c084f453b63ed76722f293fdb040631d783e6d"
-  integrity sha512-HWDUIedGAXnMkVot+fo0rcQOVa6iHx9HcQFpRyYMLMqjGSP8EtoM5RtqzimQZSzpEJ2m9CEfXRoSOdxQ7MkHfQ==
+"@strv/eslint-config-react-native@^2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@strv/eslint-config-react-native/-/eslint-config-react-native-2.2.3.tgz#81da9d90a76695f36d31196232ec3da4be442369"
+  integrity sha512-VsGifBkeitb4k8V7R/TycfAuZR0FgB9FJrkzt8Vh42d6KaxFZdiq4NO536UZbGtV93XjzmuvWjkX4R55/IAbTA==
   dependencies:
-    "@strv/eslint-config-react" "^3.1.1"
+    "@strv/eslint-config-react" "^3.1.2"
     eslint-plugin-react-native "^3.7.0"
     eslint-plugin-react-native-a11y "^1.3.0"
 
-"@strv/eslint-config-react@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@strv/eslint-config-react/-/eslint-config-react-3.1.1.tgz#50543781579f9c26b34100675a3f2889e8fc1f9f"
-  integrity sha512-X31i6ThYFYQAhG8Y2hsYmQ/b5xSvwmGfYpbXdoYIQKPE2XqYIyJzypVKzW2qP7/JbAa9XXO2vZxSc+HF1P2ENA==
+"@strv/eslint-config-react@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@strv/eslint-config-react/-/eslint-config-react-3.1.2.tgz#3d369690d26d7832e88433bd7020bb6bccb92a70"
+  integrity sha512-khJcXw47PB7/JGr01sj4b910Spc6D4QQh+annB2UtMppQdqTCxxyEeBIxViXI4trGF2aRtVH7z8FjyFCBYUsEw==
   dependencies:
     "@strv/eslint-config-base" "^2.3.0"
+    babel-eslint "^10.0.3"
     eslint-plugin-jsx-a11y "^6.2.0"
     eslint-plugin-react "^7.18.3"
     eslint-plugin-react-hooks "^2.3.0"
@@ -1924,7 +1925,7 @@ axobject-query@^2.0.2:
   dependencies:
     ast-types-flow "0.0.7"
 
-babel-eslint@10.1.0:
+babel-eslint@10.1.0, babel-eslint@^10.0.3:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
   integrity sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==
