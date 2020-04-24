@@ -34,7 +34,7 @@
     "@babel/core": "^7.9.0",
     "@babel/runtime": "^7.9.2",
     "@react-native-community/eslint-config": "^1.1.0",
-    "@strv/eslint-config-react-native": "^2.2.2",
+    "@strv/eslint-config-react-native": "^2.2.3",
     "@strv/eslint-config-typescript": "^2.3.0",
     "@strv/stylelint-config-styled-components": "^1.1.1",
     "@types/i18n-js": "^3.0.2",
