@@ -23,7 +23,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "i18n-js": "^3.7.0",
+    "i18n-js": "^3.7.1",
     "ramda": "^0.27.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
