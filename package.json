@@ -57,7 +57,7 @@
     "stylelint": "^10.1.0",
     "stylelint-config-prettier": "^7.0.0",
     "ts-jest": "^25.5.1",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   },
   "repository": {
     "type": "git",
