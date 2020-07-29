@@ -39,7 +39,7 @@
     "@strv/stylelint-config-styled-components": "^1.1.1",
     "@types/i18n-js": "^3.0.3",
     "@types/jest": "^26.0.7",
-    "@types/ramda": "^0.27.12",
+    "@types/ramda": "^0.27.13",
     "@types/react": "^16.9.43",
     "@types/react-native": "^0.63.2",
     "@types/react-test-renderer": "^16.9.2",
