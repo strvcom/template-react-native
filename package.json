@@ -31,7 +31,7 @@
     "react-native-localize": "^1.4.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.0",
+    "@babel/core": "^7.11.1",
     "@babel/runtime": "^7.11.2",
     "@react-native-community/eslint-config": "^2.0.0",
     "@strv/eslint-config-react-native": "^2.2.3",
