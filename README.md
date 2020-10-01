@@ -1,3 +1,5 @@
+*_This project became obsolete. For further information [read here](https://github.com/strvcom/template-react-native/issues/132)._*
+
 # PROJECT_NAME
 
 ## Get Started
